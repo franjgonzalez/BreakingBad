@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'breakingbad';
+    src: url('Breaking\ Bad.ttf') format('woff2'),
+         url('Breaking\ Bad.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.body_index {
+    background-image: url('img/fondo.jpg');
+    background-size: cover;
+    text-align: center;
+    font-family: 'breakingbad', sans-serif;
+}
+
+#poster{
+    width: 700px;
+    height: 300px;
+    border: 10px outset brown;
+    border-radius: 22px;
+}
+#logo{
+    width: 200px;
+    height: 200px;
+}
+
+.body_formulario{
+    background-image: url('img/fondo.jpg');
+    background-size: cover;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.body_tabla{
+    background-color: #627124;
+    background-size: cover;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#tabla_grande{
+    background-color: #2b2d23;
+    margin: auto;
+    margin-bottom: 20px;
+}
+#tabla_pequeña{
+    background-color: #2b2d23;
+    margin: auto;
+}
+
+table {
+    border-spacing: 5px;
+    background-color: #2b2d23;
+}
+
+td {
+    width: 80px;
+    height: 80px;
+    text-align: center;
+}
+
+.img_td {
+    width: 100%;
+    margin: auto;
+    object-fit: cover;
+    display: block;
+}
+
+
+#color1{
+    background-color: #b8dc1c;
+}
+#color2{
+    background-color: #d6eb75;
+}
+#color3{
+    background-color: #edf4c8;
+}
+#color4{
+    background-color: #89a418;
+}
+#color5{
+    background-color: #627126;
+}
+#color6{
+    background-color: #c6e24e;
+}
+#color7{
+    background-color: #bbc49c;
+}
+#color8{
+    background-color: #818d54;
+}
+#color9{
+    background-color: #c3c629;
+}
+#marie{
+    background-color: #a98fce;
+}
+
+.siglas{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #32352d;
+    font-weight: bold;
+    font-size: 40px;
+}
+.nombre{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
